@@ -1,0 +1,22 @@
+.form{
+    height: 98vh;
+    width: 98vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+form{
+    font-size: 30px;
+    margin: auto;
+    margin: 100px;
+}
+form label{
+    padding-right: 100px;
+}
+#submit{
+    margin: auto;
+}
+.form  form table th  span{
+    color:red;
+}
