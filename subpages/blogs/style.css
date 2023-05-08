@@ -1,15 +1,41 @@
 ::-webkit-scrollbar {
     display: none;
 }
-.scrollable{
-    overflow: auto;
-    white-space: nowrap;
+body{
+    background: #bdbdbd;
+}
+.whoami{
+    display: flex;
+    margin: 100px;
+}
+
+.whoami .ques{
+    font-size: 3em;
+    margin: auto;
+    width:21em;
+}
+.whoami .ans{
+    margin-left: 50px;
+    font-size: 2.3em;
+}
+.card-row{
     display: flex;
     justify-content: center;
 }
-.scrollable .card{
-    display: inline-block;
-    margin: 50px;
+.card-row .card{
+    margin: 0 20px ;
+}
+.text{ display: flex;
+    margin: 100px;
+}
+
+.text .text-1{
+    font-size: 2.5em;
+    margin: auto;
+}
+.text .text-2{
+    margin-left: 50px;
+    font-size: 2em;
 }
 .footer{
     background: #000;

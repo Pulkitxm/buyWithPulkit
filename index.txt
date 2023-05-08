@@ -1,0 +1,23 @@
+Pages that are done
+
+    Home
+    About
+    Login
+    Contact us
+    Smartphones
+    Clothing
+    Accesories
+
+Pages that are left
+
+    offers 
+    blog
+
+check done
+    about
+    blog
+    contact
+    home
+    login
+    offers
+    products

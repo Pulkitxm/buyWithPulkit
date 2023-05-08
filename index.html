@@ -13,6 +13,7 @@
 </head>
 
 <body>
+    <div id="preloader"></div>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a href="subpages/home/index.html" target="main-content" class="navbar-brand head" href="#">
@@ -34,27 +35,27 @@
                               Explore
                             </a>
                             <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                              <li><a class="dropdown-item disabled" target="main-content" href="subpages/Products/smartphones.html">Smartphones</a></li>
-                              <li><a class="dropdown-item disabled" target="main-content" href="subpages/Products/electronics.html">Electronics</a></li>
-                              <li><a class="dropdown-item" target="main-content" href="subpages/Products/clothing.html">Clothing</a></li>
-                              <li><a class="dropdown-item" target="main-content" href="subpages/Products/accessories.html">Accessories</a></li>
-                              <li><a class="dropdown-item disabled" target="main-content" href="subpages/Products/beauty.html">Beauty and Personal Care</a></li>
-                              <li><a class="dropdown-item" target="main-content" href="subpages/Products/home.html">Home and Kitchen</a></li>
+                              <li><a class="dropdown-item " target="main-content" href="subpages/Products/smartphones/index.html">Smartphones</a></li>
+                              <li><a class="dropdown-item disabled" target="main-content" href="subpages/Products/electronics/index.html">Electronics</a></li>
+                              <li><a class="dropdown-item" target="main-content" href="subpages/Products/clothing/index.html">Clothing</a></li>
+                              <li><a class="dropdown-item" target="main-content" href="subpages/Products/accessories/index.html">Accessories</a></li>
+                              <li><a class="dropdown-item  disabled" target="main-content" href="subpages/Products/beauty/index.html">Beauty and Personal Care</a></li>
+                              <li><a class="dropdown-item disabled" target="main-content" href="subpages/Products/home.html">Home and Kitchen</a></li>
                             </ul>
                           </li>
                         </ul>
                       </div>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" target="main-content" href="subpages/about.html">About Us</a>
+                        <a class="nav-link active" aria-current="page" target="main-content" href="subpages/about/index.html">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" target="main-content" href="subpages/contact.html">Contact Us</a>
+                        <a class="nav-link active" aria-current="page" target="main-content" href="subpages/contact/index.html">Contact Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" target="main-content" href="subpages/offers.html">Offers</a>
+                        <a class="nav-link active" aria-current="page" target="main-content" href="subpages/offers/index.html">Offers</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" target="main-content" href="subpages/blogs.html">Blogs</a>
+                        <a class="nav-link active" aria-current="page" target="main-content" href="subpages/blogs/index.html">Blogs</a>
                     </li>
 
 
@@ -73,7 +74,13 @@
     <iframe id="main-content" name="main-content" src="subpages/home/index.html" frameborder="0"></iframe>
 
 
-
+    <script>
+        var loader = document.getElementById("preloader");
+        window.addEventListener("load", function () {
+            loader.style.display = "none";
+        })
+        
+    </script>
 
 
 
